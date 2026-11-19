@@ -4,5 +4,5 @@ package br.com.ubs;
 public interface Sensor {
     int lerValor();
     boolean verificarFuncionamento();
-    String getTipe();
+    String getTipo();
 }

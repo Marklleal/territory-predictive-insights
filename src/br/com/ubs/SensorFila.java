@@ -14,7 +14,7 @@ public class SensorFila implements Sensor {
 	}
 
 	@Override
-	public String getTipe() {
+	public String getTipo() {
 		return "Fila";
 	}
     
