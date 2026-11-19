@@ -5,7 +5,7 @@ public abstract class ComponenteTerritorial {
     private final String identificacao;
     private final DadosTerritorio dadosTerritorio;
 
-    protected ComponenteTerritorial(String identificacao, DadosTerritorio dadosTerritorio) {
+    public ComponenteTerritorial(String identificacao, DadosTerritorio dadosTerritorio) {
         this.identificacao = identificacao;
         this.dadosTerritorio = dadosTerritorio;
     }
