@@ -3,6 +3,8 @@ package br.com.ubs;
 
 import java.util.List;
 
+// Pega as seis últimas leituras, divide em dois grupos de três 
+// e calcula quanto a média mudou de um grupo para o outro. 
 public class PrevisaoComparacao extends EstrategiaPrevisao {
 
 	@Override
